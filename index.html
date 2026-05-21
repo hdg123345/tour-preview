@@ -774,7 +774,7 @@
     .tour-card--festival .landing-preview__media.festival-media {
       background-image:
         linear-gradient(135deg, rgba(120, 30, 140, 0.32), rgba(231, 111, 81, 0.30)),
-        url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900&q=80");
+        url("tomorrowland-hero.jpg");
       background-size: cover;
       background-position: center;
     }
@@ -849,7 +849,7 @@
       overflow: hidden;
       background:
         linear-gradient(135deg, #2a1057 0%, #c84088 50%, #e76f51 100%),
-        url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&q=80") center / cover;
+        url("tomorrowland-hero.jpg") center / cover;
       background-blend-mode: multiply;
     }
     .tml-hero__overlay {
@@ -1603,6 +1603,14 @@
         position: sticky;
         top: 1rem;
       }
+      body.view-tour .tour-sidebar__sticky {
+        top: 6.75rem;
+        margin-top: 2.5rem;
+      }
+    }
+    body.view-tour .tour-sidebar__sticky {
+      margin-top: 1.75rem;
+      scroll-margin-top: 6.75rem;
     }
     .price-card {
       background: transparent;
@@ -2954,40 +2962,7 @@
             </div>
             <div class="price-card__section">
               <div class="price-card__label" data-tr="Ulaşım bilgileri" data-en="Transportation">Ulaşım bilgileri</div>
-              <div class="flight-block" id="sidebar-flight-block">
-                <div class="flight-block__title">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
-                  <span data-tr="Gidiş uçuşu 1" data-en="Outbound flight 1">Gidiş uçuşu 1</span>
-                </div>
-                <div class="flight-row">
-                  <strong>Helsinki (HEL) → Doha (DOH) · Qatar Airways</strong>
-                  <span data-tr="Kalkış: 02.12.2026 16:05 · Varış: 02.12.2026 23:05" data-en="Dep: 02.12.2026 16:05 · Arr: 02.12.2026 23:05">Kalkış: 02.12.2026 16:05 · Varış: 02.12.2026 23:05</span>
-                </div>
-                <div class="flight-block__title">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
-                  <span data-tr="Gidiş uçuşu 2" data-en="Outbound flight 2">Gidiş uçuşu 2</span>
-                </div>
-                <div class="flight-row">
-                  <strong>Doha (DOH) → Phuket (HKT) · Qatar Airways QR850</strong>
-                  <span data-tr="Kalkış: 03.12.2026 02:25 · Varış: 03.12.2026 12:55" data-en="Dep: 03.12.2026 02:25 · Arr: 03.12.2026 12:55">Kalkış: 03.12.2026 02:25 · Varış: 03.12.2026 12:55</span>
-                </div>
-                <div class="flight-block__title">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
-                  <span data-tr="İç hat uçuşu" data-en="Domestic flight">İç hat uçuşu</span>
-                </div>
-                <div class="flight-row">
-                  <strong>Phuket (HKT) → Bangkok (BKK) · paket dahil iç hat</strong>
-                  <span data-tr="7 Aralık 2026 · tur teyidinde" data-en="7 December 2026 · confirmed at booking">7 Aralık 2026 · tur teyidinde</span>
-                </div>
-                <div class="flight-block__title">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
-                  <span data-tr="Dönüş uçuşu" data-en="Return flight">Dönüş uçuşu</span>
-                </div>
-                <div class="flight-row">
-                  <strong>Bangkok → Stockholm → Helsinki · Norse + Finnair</strong>
-                  <span data-tr="11.12.2026 · HEL varış 18:55" data-en="11 Dec 2026 · HEL arr 18:55">11.12.2026 · HEL varış 18:55</span>
-                </div>
-              </div>
+              <div class="flight-block" id="sidebar-flight-block"></div>
               <p style="font-size:0.7rem;color:var(--text-muted);margin:0.35rem 0 0;line-height:1.4" data-tr="Örnek sefer saatleri; kesin uçuş bilgisi tur teyidinde paylaşılır." data-en="Sample schedules; exact flight info is shared upon tour confirmation.">Örnek sefer saatleri; kesin uçuş bilgisi tur teyidinde paylaşılır.</p>
             </div>
             <div class="price-card__section">
@@ -3822,10 +3797,10 @@
         image: { src: "https://images.unsplash.com/photo-1568659585074-2c11ce05a05a?w=800&q=80", alt: "Pattaya" },
         content: `<p>Bangkok'tan VIP transfer ile Pattaya. <strong>Intimate Hotel Pattaya</strong> — Deluxe Double/Twin, kahvaltı dahil, 3 gece. Şehri keşfedin; festival günlerinde shuttle dahil.</p>` },
       { n: 11, route: "Tomorrowland Gün 1", summary: "Tam gün Tomorrowland Thailand.", date: "12 Aralık 2026",
-        image: { src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80", alt: "Festival" },
+        image: { src: "tomorrowland-hero.jpg", alt: "Festival" },
         content: `<p><strong>Tomorrowland Thailand</strong> tam gün. Festival bileti ve otelden shuttle transferleri dahil. Ana sahne, uluslararası DJ'ler, Pattaya'da tam festival atmosferi.</p>` },
       { n: 12, route: "Tomorrowland Gün 2", summary: "İkinci festival günü.", date: "13 Aralık 2026",
-        image: { src: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80", alt: "Festival" },
+        image: { src: "tomorrowland-hero.jpg", alt: "Festival" },
         content: `<p>İkinci gün <strong>Tomorrowland Thailand</strong> — shuttle dahil. Müzik ve prodüksiyonun tam günü; otele dönüş transferi ayarlı.</p>` },
       { n: 13, route: "Pattaya > Bangkok > Helsinki", summary: "Finnair 11:15; HEL 18:50.", date: "14 Aralık 2026",
         image: { src: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80", alt: "Uçak" },
@@ -3960,7 +3935,7 @@
       <p>The Thai edition of the legendary Belgian electronic music festival. Held near Pattaya at a dedicated festival ground; two-day "Full Madness" experience.</p>`;
 
     const photos_tml = [
-      { href: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80", src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80", alt: "Tomorrowland sahne" },
+      { href: "tomorrowland-hero.jpg", src: "tomorrowland-hero.jpg", alt: "Tomorrowland sahne", altEn: "Tomorrowland main stage" },
       { href: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1600&q=80", src: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80", alt: "Festival kalabalık" },
       { href: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=1600&q=80", src: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=600&q=80", alt: "Phuket plajı" },
       { href: "https://images.unsplash.com/photo-1568659585074-2c11ce05a05a?w=1600&q=80", src: "https://images.unsplash.com/photo-1568659585074-2c11ce05a05a?w=600&q=80", alt: "Pattaya plajı" },
@@ -4043,7 +4018,8 @@
             timeTr:  'Kalkış: 03.12.2026 02:25 · Varış: 03.12.2026 12:55',
             timeEn:  'Dep: 03.12.2026 02:25 · Arr: 03.12.2026 12:55' },
           { titleTr: 'İç hat uçuşu', titleEn: 'Domestic flight',
-            route:   'Phuket (HKT) → Bangkok (BKK) · paket dahil iç hat',
+            routeTr: 'Phuket (HKT) → Bangkok (BKK) · paket dahil iç hat',
+            routeEn: 'Phuket (HKT) → Bangkok (BKK) · domestic flight included',
             timeTr:  '7 Aralık 2026 · tur teyidinde',
             timeEn:  '7 December 2026 · confirmed at booking' },
           { titleTr: 'Dönüş uçuşu', titleEn: 'Return flight',
@@ -4056,7 +4032,7 @@
         badge:    { tr: 'Festival · Özel teklif', en: 'Festival · Tailored offer' },
         title:    { tr: 'Thailand Exclusive Tomorrowland',
                     en: 'Thailand Exclusive Tomorrowland' },
-        heroImg:  'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&q=80',
+        heroImg:  'thumb_7195_featured_desktop.jpg',
         heroAlt:  { tr: 'Tomorrowland festival', en: 'Tomorrowland festival' },
         route:    { tr: 'Helsinki → Phuket, Bangkok → Pattaya', en: 'Helsinki → Phuket, Bangkok → Pattaya' },
         duration: { tr: '11 gece 12 gün', en: '11 nights 12 days' },
@@ -4076,11 +4052,13 @@
             timeTr:  'Kalkış: 03.12.2026 02:25 · Varış: 03.12.2026 12:55',
             timeEn:  'Dep: 03.12.2026 02:25 · Arr: 03.12.2026 12:55' },
           { titleTr: 'İç hat uçuşu', titleEn: 'Domestic flight',
-            route:   'Phuket (HKT) → Bangkok (BKK) · paket dahil iç hat',
+            routeTr: 'Phuket (HKT) → Bangkok (BKK) · paket dahil iç hat',
+            routeEn: 'Phuket (HKT) → Bangkok (BKK) · domestic flight included',
             timeTr:  '7 Aralık 2026 · tur teyidinde',
             timeEn:  '7 December 2026 · confirmed at booking' },
           { titleTr: 'Bangkok ↔ Pattaya transferi', titleEn: 'Bangkok ↔ Pattaya transfer',
-            route:   'Bangkok ↔ Pattaya · özel araç (karayolu)',
+            routeTr: 'Bangkok ↔ Pattaya · özel araç (karayolu)',
+            routeEn: 'Bangkok ↔ Pattaya · private road transfer',
             timeTr:  '11 Aralık gidiş · 14 Aralık dönüş · ~1.5-2 saat',
             timeEn:  '11 Dec out · 14 Dec back · ~1.5-2 hours' },
           { titleTr: 'Dönüş uçuşu', titleEn: 'Return flight',
@@ -4257,7 +4235,7 @@
         heroBg.style.backgroundImage =
           "linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.25)), url('" + t.heroImg + "')";
         heroBg.style.backgroundSize = 'cover';
-        heroBg.style.backgroundPosition = 'center';
+        heroBg.style.backgroundPosition = currentTour === 'tomorrowland' ? 'center 62%' : 'center';
         heroBg.setAttribute('aria-label', t.heroAlt[lang]);
       }
 
@@ -4283,7 +4261,9 @@
         const html = t.flights.map((f) =>
           '<div class="flight-block__title">' + planeSvg +
           '<span>' + (lang === 'en' ? f.titleEn : f.titleTr) + '</span></div>' +
-          '<div class="flight-row"><strong>' + f.route + '</strong><span>' +
+          '<div class="flight-row"><strong>' +
+            (lang === 'en' ? (f.routeEn || f.route) : (f.routeTr || f.route)) +
+            '</strong><span>' +
             (lang === 'en' ? f.timeEn : f.timeTr) + '</span></div>'
         ).join('');
         const note = lang === 'en'
